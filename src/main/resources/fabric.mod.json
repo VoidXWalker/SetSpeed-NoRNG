@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "norng",
+  "version": "1.0.0",
+  "name": "noRNG",
+  "description": "Speedrun-related loot table enhancements",
+  "authors": [
+    "Void_X_Walker"
+  ],
+  "contact": {
+    "repo": "https://github.com/VoidXWalker/setspeed-norng"
+  },
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.voidxwalker.norng.Main"
+    ]
+  },
+  "mixins": [
+    "norng.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

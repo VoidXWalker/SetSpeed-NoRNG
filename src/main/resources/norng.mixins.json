@@ -1,0 +1,36 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.voidxwalker.norng.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "enderdragon.fight.EnderDragonFightMixin",
+    "enderdragon.fight.LandingApproachPhaseMixin",
+
+    "biome.ocean.OceanBiomeMixin",
+    "biome.ocean.ColdOceanBiomeMixin",
+    "biome.ocean.DeepColdOceanBiomeMixin",
+    "biome.ocean.DeepLukewarmOceanBiomeMixin",
+    "biome.ocean.DeepOceanBiomeMixin",
+    "biome.ocean.DeepWarmOceanBiomeMixin",
+    "biome.ocean.LukewarmOceanBiomeMixin",
+    "biome.ocean.WarmOceanBiomeMixin",
+
+    "entity.SheepEntityMixin",
+    "entity.EyeOfEnderEntityMixin",
+    "entity.GuardianEntityMixin",
+    "entity.ElderGuardianEntityMixin",
+    "entity.ZombifiedPiglinEntityMixin",
+    "entity.PiglinBrainMixin",
+    "entity.VillagerEntityMixin",
+    "entity.ServerPlayerEntityMixin",
+
+    "spawn.MobSpawnerLogicMixin",
+
+    "DebugHudMixin"
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
