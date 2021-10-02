@@ -32,7 +32,7 @@ public class PiglinBrainMixin {
                 Main.pearlRange = Main.pearlRange/4;
             }
             Main.fireResRange += 1;
-            list.add(new ItemStack(Items.ENDER_PEARL, 8));
+            list.add(new ItemStack(Items.ENDER_PEARL, Main.random.nextInt(3)+6));
             return list;
         }
         point = Main.pearlRange;
@@ -52,7 +52,7 @@ public class PiglinBrainMixin {
         //gravel
         if (randomNumber >= point + 1 && randomNumber <= point + Main.gravelRange) {
             list = new ArrayList();
-            list.add(new ItemStack(Items.GRAVEL, 16));
+            list.add(new ItemStack(Items.GRAVEL, Main.random.nextInt(5)+12));
             Main.fireResRange += 1;
             Main.pearlRange += 4;
             return list;
@@ -61,7 +61,7 @@ public class PiglinBrainMixin {
         point = point + Main.gravelRange;
         if (randomNumber >= point + 1 && randomNumber <= point + Main.stringRange) {
             list = new ArrayList();
-            list.add(new ItemStack(Items.STRING, 24));
+            list.add(new ItemStack(Items.STRING, Main.random.nextInt(9)+16));
             Main.fireResRange += 1;
             Main.pearlRange += 4;
             return list;
@@ -79,7 +79,7 @@ public class PiglinBrainMixin {
         point = point + Main.obsidianRange;
         if (randomNumber >= point + 1 && randomNumber <= point + Main.cryingObsidianRange) {
             list = new ArrayList();
-            list.add(new ItemStack(Items.CRYING_OBSIDIAN,3));
+            list.add(new ItemStack(Items.CRYING_OBSIDIAN,Main.random.nextInt(2)+1));
             Main.fireResRange += 1;
             Main.pearlRange += 4;
             return list;
@@ -87,7 +87,7 @@ public class PiglinBrainMixin {
         //soul sand
         else {
             list = new ArrayList();
-            list.add(new ItemStack(Items.SOUL_SAND,16));
+            list.add(new ItemStack(Items.SOUL_SAND,Main.random.nextInt(7)+10));
             Main.fireResRange += 1;
             Main.pearlRange += 4;
             return list;
