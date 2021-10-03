@@ -1,14 +1,15 @@
 {
   "schemaVersion": 1,
   "id": "norng",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "noRNG",
   "description": "Speedrun-related loot table enhancements",
   "authors": [
     "Void_X_Walker"
   ],
   "contact": {
-    "repo": "https://github.com/VoidXWalker/setspeed-norng"
+    "repo": "https://github.com/VoidXWalker/setspeed-norng",
+    "discord": "https://discord.com/channels/869998042051391548/870252239346868295/888841721667006544"
   },
 
   "license": "All-Rights-Reserved",
